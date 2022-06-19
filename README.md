@@ -1,2 +1,2 @@
-# caht
+# chat
 chat app
