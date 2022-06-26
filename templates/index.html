@@ -1,11 +1,15 @@
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ProbaTytulu</title>
-</head>
-<body>
-<h1>Hello</h1>
-</body>
-</html>
+{% block title %}Home{% endblock %}
+
+
+{% block body %}
+<div class="container">
+
+<h1>Flask Template Home Page</h1>
+<h2>{{data.text}}</h2>
+<h2>{{data.name}}</h2>
+<p>Our new app is getting bigger and bigger all the time</p>
+
+</div>
+{% endblock %}
